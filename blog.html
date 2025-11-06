@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sydney Website Design Agency Blog - Expert insights on web design, SEO, and digital marketing for small businesses. Learn strategies to boost your online presence.">
+    <meta name="keywords" content="web design blog, SEO tips, digital marketing, small business, website design strategies">
+    <meta name="author" content="Sydney Website Design Agency">
+    <meta name="theme-color" content="#3B82F6">
+    <title>Blog | Sydney Website Design Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+        }
+        
+        .cta-gradient {
+            background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%);
+        }
+        
+        .feature-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .testimonial-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .btn-primary {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .faq-icon {
+            transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .mobile-menu {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .star-rating {
+            color: #FCD34D;
+        }
+
+        .blog-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-8px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl" class="flex items-center space-x-2">
+                <i class="fas fa-globe text-3xl text-blue-600"></i>
+                <span class="text-2xl font-bold gradient-text">Sydney Design</span>
+            </a>
+            
+            <a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 flex items-center space-x-1">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="hero-gradient py-20 md:py-28 lg:py-32 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center space-y-6">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+                    Our Blog
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 leading-relaxed font-light max-w-3xl mx-auto">
+                    Expert insights, industry trends, and actionable strategies to help your small business thrive in the digital landscape
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content Introduction -->
+    <section class="py-16 md:py-20 lg:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-6">
+                <h2 class="text-3xl md:text-4xl font-bold leading-tight">
+                    Stay Informed and Inspired
+                </h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Welcome to the Sydney Website Design Agency blog—your go-to resource for cutting-edge web design strategies, SEO optimization techniques, and digital marketing insights tailored for small businesses. Our expert team shares practical knowledge, real-world case studies, and proven methodologies to help you maximize your online presence and achieve measurable business growth. Whether you're just starting your digital journey or looking to enhance your existing web presence, you'll find valuable content that empowers you to make informed decisions about your online strategy.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-16 md:py-20 lg:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-2">Featured Article</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600"></div>
+            </div>
+
+            <div class="blog-card bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0">
+                    <!-- Featured Image -->
+                    <div class="lg:col-span-1">
+                        <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-64 lg:h-full flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <i class="fas fa-pen-fancy text-6xl mb-4 opacity-80"></i>
+                                <p class="text-lg font-semibold">Web Design Excellence</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Content -->
+                    <div class="lg:col-span-2 p-8 md:p-12 flex flex-col justify-center">
+                        <div class="mb-4 flex items-center space-x-2">
+                            <span class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">Featured</span>
+                            <span class="text-gray-500 text-sm font-medium">November 6, 2025</span>
+                        </div>
+
+                        <h3 class="text-3xl md:text-4xl font-bold mb-6 leading-tight text-gray-900">
+                            How Custom Website Design Transforms Small Business Success
+                        </h3>
+
+                        <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                            Custom website design transforms small businesses by creating strategic digital assets that attract customers and drive measurable results. Unlike generic templates, professional design builds brand credibility, enhances user experience, and optimizes for search engines from the ground up. Mobile-first responsiveness ensures accessibility across devices, while proper analytics implementation enables continuous optimization. Custom websites scale with your business, integrate seamlessly with existing systems, and provide superior security. Real-world success stories demonstrate lead generation increases of 150-300% within months. By investing in professional web design, small businesses gain competitive advantages, establish trust, and create foundations for sustainable growth in today's digital-first marketplace.
+                        </p>
+
+                        <a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl/blog/how-custom-website-design-transforms-small-busines.html" class="btn-primary inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 w-fit">
+                            Read Full Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="py-16 md:py-20 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-2">Latest Articles</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post Placeholder 1 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-blue-600">
+                    <div class="bg-gradient-to-br from-blue-400 to-blue-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            SEO Best Practices for 2025
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Discover the latest SEO strategies and algorithm updates that will help your website rank higher on Google and attract more qualified organic traffic to your business.
+                        </p>
+                        <a href="#" class="inline-block text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Placeholder 2 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-purple-600">
+                    <div class="bg-gradient-to-br from-purple-400 to-purple-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            Mobile-First Design: Why It Matters
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Learn why designing for mobile devices first is essential for modern web development and how it impacts user experience, conversion rates, and search engine rankings.
+                        </p>
+                        <a href="#" class="inline-block text-purple-600 hover:text-purple-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Placeholder 3 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-pink-600">
+                    <div class="bg-gradient-to-br from-pink-400 to-pink-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            Conversion Rate Optimization Guide
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Master the art of turning website visitors into customers with proven CRO techniques, A/B testing strategies, and data-driven optimization methods.
+                        </p>
+                        <a href="#" class="inline-block text-pink-600 hover:text-pink-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Placeholder 4 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-green-600">
+                    <div class="bg-gradient-to-br from-green-400 to-green-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            Website Security Essentials
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Protect your business and customers with essential website security practices, SSL certificates, regular backups, and protection against common cyber threats.
+                        </p>
+                        <a href="#" class="inline-block text-green-600 hover:text-green-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Placeholder 5 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-yellow-600">
+                    <div class="bg-gradient-to-br from-yellow-400 to-yellow-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            Content Strategy That Converts
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Develop a powerful content strategy that attracts your target audience, establishes thought leadership, and drives meaningful business results through storytelling.
+                        </p>
+                        <a href="#" class="inline-block text-yellow-600 hover:text-yellow-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Blog Post Placeholder 6 -->
+                <div class="blog-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl border-t-4 border-indigo-600">
+                    <div class="bg-gradient-to-br from-indigo-400 to-indigo-600 h-48 flex items-center justify-center">
+                        <i class="fas fa-image text-6xl text-white opacity-30"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-3 flex items-center space-x-2">
+                            <span class="text-sm text-gray-500 font-medium">Coming Soon</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 text-gray-900">
+                            Analytics & Performance Tracking
+                        </h3>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Understand your website performance with comprehensive analytics, track key metrics, and use data-driven insights to continuously improve your online presence.
+                        </p>
+                        <a href="#" class="inline-block text-indigo-600 hover:text-indigo-700 font-semibold transition-colors duration-300">
+                            Coming Soon <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Subscribe CTA -->
+    <section class="py-20 md:py-28 lg:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-lg p-12 text-center space-y-8">
+                <h2 class="text-3xl md:text-4xl font-bold leading-tight">
+                    Stay Updated With Our Latest Articles
+                </h2>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Subscribe to our blog and receive expert insights, industry trends, and actionable strategies delivered directly to your inbox. Stay ahead of the competition with the latest web design and digital marketing knowledge.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <input type="email" placeholder="Enter your email address" class="px-6 py-4 rounded-lg border-2 border-gray-300 focus:border-blue-600 focus:outline-none transition-colors duration-300 flex-1 max-w-sm">
+                    <button class="btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                        Subscribe Now
+                    </button>
+                </div>
+                <p class="text-sm text-gray-500">
+                    We respect your privacy. Unsubscribe at any time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-28 lg:py-32 bg-cover bg-center relative" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop');">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center text-white space-y-8">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                    Ready to Transform Your Online Presence?
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
+                    Let's create an amazing website that attracts customers and grows your business. Contact us today for a free consultation.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="https://test.com" class="btn-primary cta-gradient text-white font-bold py-4 px-10 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                        Start Your Project
+                    </a>
+                    <a href="mailto:admin@test.com" class="btn-primary border-2 border-white text-white hover:bg-white hover:text-blue-600 font-bold py-4 px-10 rounded-lg transition-all duration-300 text-center">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-globe text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold text-white">Sydney Design</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Creating amazing websites that transform small businesses and drive real results.
+                    </p>
+                    <div class="flex space-x-4 pt-4">
+                        <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Web Design</a></li>
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">SEO Optimization</a></li>
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Mobile Development</a></li>
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Digital Marketing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">E-commerce Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://test-acc-12349.github.io/sydney-website-design-agency-2025-11-06-k0ptl#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="mailto:admin@test.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 py-8 border-t border-gray-800">
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-map-marker-alt text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Address</p>
+                        <p class="text-gray-400">Sydney, NSW 2000, Australia</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-envelope text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Email</p>
+                        <a href="mailto:admin@test.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">admin@test.com</a>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-phone text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Phone</p>
+                        <a href="tel:+61412345678" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">+61 (0)2 1234 5678</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-gray-400">
+                    &copy; 2025 Sydney Website Design Agency. All rights reserved.
+                </p>
+                <p class="text-gray-400">
+                    Designed & Developed with <i class="fas fa-heart text-red-500"></i> for Small Business Success
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
