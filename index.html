@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sydney Website Design Agency - Amazing Websites For Small Business. Custom Design, SEO Optimized, Mobile Ready. Attract More Customers and Boost Online Visibility.">
+    <meta name="keywords" content="website design, Sydney, small business, custom design, SEO, mobile responsive">
+    <meta name="author" content="Sydney Website Design Agency">
+    <meta name="theme-color" content="#3B82F6">
+    <title>Sydney Website Design Agency | Amazing Websites For Small Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+        }
+        
+        .cta-gradient {
+            background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%);
+        }
+        
+        .feature-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .testimonial-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .btn-primary {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .faq-icon {
+            transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .mobile-menu {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .star-rating {
+            color: #FCD34D;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-globe text-3xl text-blue-600"></i>
+                <span class="text-2xl font-bold gradient-text">Sydney Design</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                <a href="https://test.com" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded-lg p-2" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+                <div class="flex flex-col space-y-4 px-4 py-6">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                    <a href="https://test.com" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 md:py-32 lg:py-40 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+                            Amazing Websites For Small Business
+                        </h1>
+                        <p class="text-xl md:text-2xl text-gray-600 leading-relaxed font-light">
+                            Transform your online presence with stunning, custom-designed websites that drive real business results
+                        </p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://test.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                            Start Your Project Today
+                        </a>
+                        <a href="#benefits" class="btn-primary border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-4 px-8 rounded-lg transition-all duration-300 text-center">
+                            Learn More
+                        </a>
+                    </div>
+                    
+                    <div class="flex items-center space-x-6 pt-4">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500 text-lg"></i>
+                            <span class="text-gray-700 font-medium">100+ Happy Clients</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-star text-yellow-400 text-lg"></i>
+                            <span class="text-gray-700 font-medium">4.9/5 Rating</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl shadow-2xl overflow-hidden h-96 md:h-full flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <i class="fas fa-laptop text-8xl mb-4 opacity-80"></i>
+                            <p class="text-xl font-semibold">Professional Web Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-28 lg:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                    Powerful Features Built For Success
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Every website we create is packed with industry-leading features designed to maximize your online impact
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Custom Design Feature -->
+                <div class="feature-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl">
+                    <div class="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-pencil-ruler text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Custom Design</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Every website is uniquely crafted to reflect your brand identity and business goals. Our award-winning design team creates stunning, bespoke solutions that stand out from the competition and capture your audience's attention.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Tailored to your brand</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Modern design trends</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>User-focused interface</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- SEO Optimized Feature -->
+                <div class="feature-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl">
+                    <div class="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">SEO Optimized</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Every page is meticulously optimized for search engines to ensure your website ranks high on Google. Our SEO experts implement proven strategies that drive organic traffic and increase your online visibility significantly.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Google ranking optimization</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Keyword research & strategy</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Technical SEO implementation</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Mobile Ready Feature -->
+                <div class="feature-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl">
+                    <div class="bg-pink-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Mobile Ready</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        With over 70% of users browsing on mobile devices, we ensure your website looks perfect on every screen size. Our responsive design automatically adapts to deliver an optimal experience on smartphones, tablets, and desktops.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-700">
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Fully responsive design</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Fast loading speeds</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            <span>Touch-friendly interface</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-28 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                    Real Results That Transform Your Business
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Our websites don't just look beautiful—they drive measurable business growth and customer engagement
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <!-- Attract More Customers -->
+                    <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-8 border-l-4 border-blue-600">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-users text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-3 text-gray-900">Attract More Customers</h3>
+                                <p class="text-gray-700 leading-relaxed mb-4">
+                                    A professionally designed website acts as a powerful marketing tool that attracts qualified leads 24/7. Our conversion-optimized designs are proven to increase customer inquiries by up to 300%, turning visitors into paying customers and building long-term business relationships.
+                                </p>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-blue-600"></i>
+                                        <span>Increased lead generation</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-blue-600"></i>
+                                        <span>Higher conversion rates</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-blue-600"></i>
+                                        <span>Better customer retention</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Boost Online Visibility -->
+                    <div class="bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl p-8 border-l-4 border-purple-600">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-eye text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold mb-3 text-gray-900">Boost Online Visibility</h3>
+                                <p class="text-gray-700 leading-relaxed mb-4">
+                                    Dominate search results and establish your brand as an industry authority. Our SEO-driven approach ensures your website ranks on the first page of Google for your target keywords, dramatically increasing your online presence and brand awareness in your market.
+                                </p>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-purple-600"></i>
+                                        <span>First-page Google rankings</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-purple-600"></i>
+                                        <span>Increased organic traffic</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-arrow-right text-purple-600"></i>
+                                        <span>Brand authority building</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-2xl shadow-2xl overflow-hidden h-96 md:h-full flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <i class="fas fa-chart-pie text-8xl mb-4 opacity-80"></i>
+                            <p class="text-xl font-semibold">Business Growth Analytics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-28 lg:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                    About Sydney Website Design Agency
+                </h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-8 text-lg text-gray-700 leading-relaxed">
+                <p class="text-justify">
+                    Founded in 2015, Sydney Website Design Agency emerged from a simple vision: to empower small businesses with world-class digital solutions that were previously only accessible to large corporations. Our founding team of designers, developers, and marketing strategists recognized a critical gap in the market—businesses needed beautiful, functional websites that actually drove results. Starting from a small studio in Sydney's CBD, we've grown to become one of the region's most trusted web design agencies, having successfully launched over 500 websites for businesses across every industry imaginable. Our journey has been built on the principle that every business, regardless of size, deserves exceptional digital presence that reflects their unique value and drives tangible business growth.
+                </p>
+                
+                <p class="text-justify">
+                    Today, our mission remains unchanged: to craft stunning, high-performance websites that transform how small businesses compete in the digital landscape. We believe in the power of great design combined with strategic thinking, and we're committed to delivering measurable results for every client we work with. Our core values—creativity, integrity, innovation, and client success—guide every project we undertake. We don't just build websites; we build digital assets that become powerful engines for business growth. With a team of award-winning designers, SEO specialists, and web developers, we bring together diverse expertise to create comprehensive digital solutions that exceed expectations and deliver real, lasting value to our clients.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-12 border-t border-gray-200">
+                <div class="text-center">
+                    <div class="text-4xl font-bold gradient-text mb-2">500+</div>
+                    <p class="text-gray-600 font-medium">Websites Created</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold gradient-text mb-2">100%</div>
+                    <p class="text-gray-600 font-medium">Client Satisfaction</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold gradient-text mb-2">10+</div>
+                    <p class="text-gray-600 font-medium">Years Experience</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold gradient-text mb-2">24/7</div>
+                    <p class="text-gray-600 font-medium">Support Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-28 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                    What Our Clients Say
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Real feedback from real businesses who've transformed their online presence with our web design services
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl border-t-4 border-blue-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "The team at Sydney Website Design Agency completely transformed our online presence. Within three months of launching our new website, we saw a 250% increase in qualified leads. Their attention to detail, SEO expertise, and ongoing support have been absolutely invaluable to our business growth."
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                            JM
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">James Mitchell</p>
+                            <p class="text-sm text-gray-600">Managing Director, Mitchell Construction</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl border-t-4 border-purple-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "I was skeptical about investing in a new website, but the team made the process so smooth and professional. The design is stunning, the site loads incredibly fast, and our customer inquiries have doubled. Best business decision we've made this year."
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
+                            SL
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Sarah Lee</p>
+                            <p class="text-sm text-gray-600">Owner, Lee's Wellness Studio</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl border-t-4 border-pink-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Exceptional service from start to finish. The team understood our vision immediately and delivered a website that exceeded all our expectations. Our competitors are asking who designed our site. Highly recommended!"
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full flex items-center justify-center text-white font-bold">
+                            RT
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Robert Thompson</p>
+                            <p class="text-sm text-gray-600">CEO, Thompson Legal Services</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white rounded-xl shadow-md p-8 hover:shadow-xl border-t-4 border-green-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                        <i class="fas fa-star star-rating"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        "Their team's expertise in both design and digital marketing is unmatched. We've seen our Google rankings improve dramatically, and the website is so user-friendly that our customers love navigating it. Worth every penny."
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            EM
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Emily Martinez</p>
+                            <p class="text-sm text-gray-600">Founder, Martinez Digital Marketing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-28 lg:py-32 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Find answers to common questions about our web design services and process
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                        <span class="text-lg font-bold text-gray-900 text-left">How long does it take to build a website?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            The timeline depends on the complexity and scope of your project. Most small to medium-sized business websites take between 4-8 weeks from initial consultation to launch. This includes discovery, design, development, content integration, and thorough testing. We provide a detailed timeline during our initial consultation so you know exactly what to expect. For rush projects, we offer expedited services to meet tight deadlines.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                        <span class="text-lg font-bold text-gray-900 text-left">What is included in your website packages?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Our comprehensive packages include:
+                        </p>
+                        <ul class="space-y-3 text-gray-700 ml-4">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Custom website design and development</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Mobile responsive design for all devices</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>SEO optimization and keyword research</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Content integration and copywriting</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Contact forms and lead capture systems</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>12 months of free support and maintenance</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                        <span class="text-lg font-bold text-gray-900 text-left">How much does a website cost?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Website costs vary based on your specific requirements, features, and functionality. We offer flexible packages starting from $3,000 for basic websites up to $15,000+ for complex, feature-rich sites. Our pricing includes:
+                        </p>
+                        <ul class="space-y-2 text-gray-700 ml-4 mb-4">
+                            <li>• Professional design and development</li>
+                            <li>• SEO optimization</li>
+                            <li>• Mobile responsiveness</li>
+                            <li>• Initial content setup</li>
+                            <li>• First year of hosting and support</li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed">
+                            We'll provide a customized quote after understanding your specific needs and goals. No hidden fees, no surprises.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                        <span class="text-lg font-bold text-gray-900 text-left">Will my website be SEO friendly?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Absolutely! SEO is built into every website we create. Our approach includes:
+                        </p>
+                        <ul class="space-y-3 text-gray-700 ml-4">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Comprehensive keyword research for your industry</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>On-page optimization for all pages</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Technical SEO implementation</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Fast loading speeds and mobile optimization</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>XML sitemap and robots.txt optimization</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed mt-4">
+                            Our websites consistently rank well on Google and drive qualified organic traffic.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-blue-50 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                        <span class="text-lg font-bold text-gray-900 text-left">What kind of ongoing support do you provide?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            We believe in building long-term partnerships with our clients. Our support includes:
+                        </p>
+                        <ul class="space-y-3 text-gray-700 ml-4">
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>12 months of free support and maintenance included</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Regular security updates and backups</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Content updates and modifications</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Performance monitoring and optimization</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>Ongoing SEO improvements and analytics reporting</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fas fa-check text-green-500 mt-1 flex-shrink-0"></i>
+                                <span>24/7 emergency support availability</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed mt-4">
+                            After the first year, we offer affordable ongoing support packages to keep your website running smoothly and secure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-28 lg:py-32 bg-cover bg-center relative" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop');">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center text-white space-y-8">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                    Ready to Transform Your Online Presence?
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
+                    Let's create an amazing website that attracts customers and grows your business. Contact us today for a free consultation.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                    <a href="https://test.com" class="btn-primary cta-gradient text-white font-bold py-4 px-10 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                        Start Your Project
+                    </a>
+                    <a href="mailto:admin@test.com" class="btn-primary border-2 border-white text-white hover:bg-white hover:text-blue-600 font-bold py-4 px-10 rounded-lg transition-all duration-300 text-center">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-globe text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold text-white">Sydney Design</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Creating amazing websites that transform small businesses and drive real results.
+                    </p>
+                    <div class="flex space-x-4 pt-4">
+                        <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Web Design</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">SEO Optimization</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Mobile Development</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Digital Marketing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">E-commerce Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="mailto:admin@test.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 py-8 border-t border-gray-800">
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-map-marker-alt text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Address</p>
+                        <p class="text-gray-400">Sydney, NSW 2000, Australia</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-envelope text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Email</p>
+                        <a href="mailto:admin@test.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">admin@test.com</a>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <i class="fas fa-phone text-blue-400 text-xl mt-1 flex-shrink-0"></i>
+                    <div>
+                        <p class="text-white font-semibold">Phone</p>
+                        <a href="tel:+61412345678" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">+61 (0)2 1234 5678</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-gray-400">
+                    &copy; 2025 Sydney Website Design Agency. All rights reserved.
+                </p>
+                <p class="text-gray-400">
+                    Designed & Developed with <i class="fas fa-heart text-red-500"></i> for Small Business Success
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
